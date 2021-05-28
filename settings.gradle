@@ -1,0 +1,2 @@
+rootProject.name = "SignGoogle-Pedro-Arriola-20188"
+include ':app'

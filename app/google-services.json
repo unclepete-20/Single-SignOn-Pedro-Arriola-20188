@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "17274604318",
+    "project_id": "sign-pedro-arriola-20188",
+    "storage_bucket": "sign-pedro-arriola-20188.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17274604318:android:c1999e87c2c22b3221970f",
+        "android_client_info": {
+          "package_name": "com.example.signgoogle_pedro_arriola_20188"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17274604318-bc8gjs48156008bi610027cju2tp6844.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf3O5AY9lvP6LF2FocCqUskdoohU8Zjsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17274604318-bc8gjs48156008bi610027cju2tp6844.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
