@@ -1,10 +1,12 @@
 package com.example.signgoogle_pedro_arriola_20188
 
 import android.content.Intent
+import android.graphics.Typeface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import android.widget.TextView
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -23,10 +25,17 @@ class SignInActivity : AppCompatActivity() {
     private lateinit var googleSignInClient: GoogleSignInClient
 
     lateinit var sign_in_btn: SignInButton
+    //lateinit var welcomeText: TextView
+    //lateinit var font: Typeface
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
+
+        //welcomeText = findViewById(R.id.welcome)
+        //font = Typeface.createFromAsset(assets, "font/pattaya.ttf")
+
+        //welcomeText.setTypeface(font)
 
         // Configure Google Sign In
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)

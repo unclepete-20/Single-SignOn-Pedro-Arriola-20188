@@ -8,12 +8,30 @@
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/sign_in_button"
-        android:layout_width="261dp"
-        android:layout_height="52dp"
+        android:layout_width="333dp"
+        android:layout_height="107dp"
+        android:textAlignment="center"
+        app:buttonSize="standard"
+        app:colorScheme="auto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.724" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="361dp"
+        android:layout_height="117dp"
+        android:fontFamily="@font/pacifico"
+        android:gravity="center"
+        android:text="BIENVENIDO"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/sign_in_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

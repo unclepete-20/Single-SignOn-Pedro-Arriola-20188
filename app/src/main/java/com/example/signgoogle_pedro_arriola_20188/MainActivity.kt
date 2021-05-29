@@ -5,16 +5,21 @@ import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.widget.TextView
 import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var mAuth: FirebaseAuth
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        getWindow().getDecorView().setBackgroundColor(Color.rgb(229,255,229));
+
+
+        getWindow().getDecorView().setBackgroundColor(Color.rgb(251,230,44));
 
         mAuth = FirebaseAuth.getInstance()
         val user = mAuth.currentUser
